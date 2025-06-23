@@ -15,7 +15,7 @@ This repository provides:
 - A clean implementation of a VAE in PyTorch
 - Training on MNIST with reconstruction + KL loss
 - Per-digit latent space sampling
-- Psychedelic visualizations using colormaps
+- Visualizations using colormaps
 
 ---
 
