@@ -46,7 +46,7 @@ with torch.no_grad():
         img = vae.decode(z).cpu().view(28, 28)
         decoded_images.append(img)
 
-# Plot with psychedelic colors
+# Plot with colors
 fig, axes = plt.subplots(1, 10, figsize=(20, 2))
 for i, ax in enumerate(axes):
     img_np = decoded_images[i].numpy()
