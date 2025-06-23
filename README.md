@@ -114,7 +114,7 @@ python per_digit_demo.py
 
 - Conditional VAE (CVAE) to control generation by label
 - Latent space interpolation demo
-- Beta-VAE (KL weight tuning for disentanglement)
+- β-VAE (KL weight tuning for disentanglement)
 - Larger datasets (FashionMNIST, CelebA, etc.)
 
 ---
